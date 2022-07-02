@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Create QR Code</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <h3>Create QR Code</h3>
+            </div>
+            <div class="form">
+                <div class="infor-qr-code">
+                    <span class="form-title">
+                        Thông tin Text / URL:
+                    </span>
+                    <input type="text" placeholder="Enter your Text or URL">
+                    <span class="message-error">Trường này không được bỏ trống.</span>
+                    <button class="btn">Create QR Code</button>
+                </div>
+                <div class="qr-code">
+                    <img src="" alt="">
+                    <span class="desc-qr-code">Đây là qr code của Text or URL</span>
+                    <a href='URL_HERE' download>Download QR Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
